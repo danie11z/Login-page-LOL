@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+main{
+    width: 140vw;
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+
+.logoBox{
+    width: 39.8vw;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    width: 17vw;
+}
+
+.loginBox{
+    width: 39.8vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.loginTitle{
+    font-size: 1.5vw;
+}
+
+.user, .pass{
+    width: 30vw;
+    height: 6vh;
+    background-color: #E8E6E6;
+    border: none;
+    font-size: 1vw;
+    text-indent: 3%;
+}
+
+.user{
+    margin-top: -1.5vh;
+}
+
+.iconsBox{
+    display: flex;
+    width: 30vw;
+    justify-content: space-between;
+    margin-top: 1.5vh;
+}
+
+.facebookBox, .googleBox, .appleBox{
+    width: 7.5vw;
+    height: 3.5vh;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebookLogo, .googleLogo, .appleLogo{
+    width: 2vw;
+    height: 2vw;
+}
+
+a{
+    text-decoration: none;
+}
+
+.facebookBox{
+    background-color: #2051FF;
+}
+
+.googleBox{
+    background-color: #8A0000;
+}
+
+.appleBox{
+    background-color: #000000;
+}
+
+.loginQuestion{
+    width: 30vw;
+    height: 3vh;
+}
+
+.labelCheckbox{
+    font-size:1.5vw;
+    font-weight: 700;
+}
+
+.toAccess{
+    width: 39.8vw;
+    height: 8.4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btnImg{
+    width: 3.5vw;
+}
+
+.btnOFF{
+    background-color: #FF002E;
+    border: none;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+.btnON{
+    background-color: #FF002E;
+    border: none;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.banner{
+    width: 147vw;
+}
